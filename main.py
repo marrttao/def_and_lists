@@ -7,4 +7,6 @@ def paired_numbers (a,b):
             print(i)
 
 if __name__ == '__main__':
-    paired_numbers(2,18)
+    _a = int(input())
+    _b = int(input())
+    paired_numbers(_a,_b)
